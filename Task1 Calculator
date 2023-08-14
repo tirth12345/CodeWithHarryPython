@@ -1,0 +1,6 @@
+a = int(input('type your number here'))
+b = int(input('type your number here'))
+print("Addition of ", a, "+", b, "is", a+b)
+print("Subtraction of", a, "-", b, "is", a-b)
+print("Multiplication of", a, "*", b, "is", a*b)
+print("Division of", a, "/", b, "is", a/b)
