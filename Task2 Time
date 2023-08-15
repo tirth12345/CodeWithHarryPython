@@ -1,0 +1,10 @@
+import time
+
+timestamp = time.strftime('%H:%M:%S')
+print(timestamp)
+if timestamp < '12:0:0':
+    print("Good Morning")
+elif '12:0:0' < timestamp < '5:0:0':
+    print('Good Afternoon')
+else:
+    print('Good Evening')
