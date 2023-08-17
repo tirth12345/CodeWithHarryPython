@@ -1,0 +1,24 @@
+Questions = ['who is prime minister of India: ', 'what does plant releases while photosynthesis: ',
+             'what is full form of ISRO: ']
+Answers = ['Narendra Modi', 'Oxygen', 'Indian Space Research Organisation']
+
+print('Welcome to KBC')
+print('here are your questions')
+
+
+def quiz(a, b):
+    answer = input(a)
+    for i in answer:
+
+        if answer == b:
+            print('Congrats you won 1000')
+
+        else:
+            print('Opps you have answered Wrong.')
+        break
+
+
+quiz(Questions[0], Answers[0])
+quiz(Questions[1], Answers[1])
+quiz(Questions[2], Answers[2])
+print('Thanks for Playing')
